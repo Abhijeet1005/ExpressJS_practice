@@ -20,6 +20,9 @@ app.get('/profile/:username',function(req,res){
 app.get('/error',function(req,res){
     res.render('error');
 })
+app.get('/test',function(req,res){
+    res.render('test');
+})
 
 
 
